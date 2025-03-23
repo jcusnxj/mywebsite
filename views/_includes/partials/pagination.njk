@@ -1,0 +1,13 @@
+{% set previousPost = collections.all | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.all | getNextCollectionItem(page) %}
+
+
+  {% if previousPost %}
+  <a href="{{ previousPost.url }}">Předchozí</a>
+  {% else %}
+  <span></span> <!-- Placeholder for spacing -->
+  {% endif %}
+
+  {% if nextPost %}
+  <a href="{{ nextPost.url }}">Další</a>
+  {% endif %}
