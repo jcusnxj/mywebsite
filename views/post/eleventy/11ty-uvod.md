@@ -19,11 +19,6 @@ Takže co budete potřebovat, aby jste mohli začít:
 - npm (Node Package Manager - součást instalace Node.js)
 - Internetový prohlížeč
 
-Pár poznámek:
-
-- Visual Studio Code není jedinou možností (lze nahradit jinými nástroji). Nicméně celá série předpokladá jeho použití.
-- Pokud nevíte, zda máte na počítači nainstalovaný Node.js, případně jak ho nainstalovat (včetně npm), zeptejte se třeba ChatGPT. 
-
 
  
 
