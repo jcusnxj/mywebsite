@@ -99,6 +99,7 @@ a {
 
 /* BREADCRUMB */
 .breadcrumb {
+    padding-top: 0.5rem;
     height: 3rem;
     line-height: 1.2;
 }
