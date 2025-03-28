@@ -53,7 +53,7 @@ npx @11ty/eleventy --serve
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Dojde ke spuštění lokálního serveru, který nejen vygeneruje statické stránky, ale zároveň je zobrazí na http://localhost:8080. K tomu všemu je automaticky přegeneruje pokaždé, když uložíte ve vašem Eleventy projektu jakoukoli změnu. Příkaz vytvoří adresář "_site" do kterého se vygenerují vaše HTML stránky. Právě tento adresář obsahuje finální produkt celého našeho snažení - výstupní soubory, které můžete teoreticky vzít a nahrát kamkoli, kde budete svoje stránky hostovat. Btw. běh serveru ukončíte zkratkou Ctrl + C v terminálu.</p>
+  <p>Eleventy vygeneruje HTML stránky a spustí lokální server. Stránky budou dostupné na http://localhost:8080. HTML výstup se navíc automaticky přegeneruje pokaždé, když uložíte ve vašem Eleventy projektu jakoukoli změnu. HTML výstup se ukládá do nového "_site" adresáře. Právě tento adresář obsahuje finální produkt celého našeho snažení - výstupní soubory, které můžete teoreticky vzít a nahrát kamkoli, kde budete svoje stránky hostovat. Btw. běh serveru ukončíte zkratkou Ctrl + C v terminálu.</p>
 </details>
 
 A to je opravdu všechno. Gratuluji! Svoji první stránku si můžete prohlédnout na adrese [http://localhost:8080](http://localhost:8080).
