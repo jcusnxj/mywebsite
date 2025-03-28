@@ -17,7 +17,7 @@ npm init -y
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Dojde k vytvoření souboru package.json ve vašem adresáři. Soubor slouží jako základní konfigurace Node.js projektu. Zde se budou zapisovat například závislosti na instalovaných knihovnách, které se rozhodnete v projektu použít. Jednou z takových knihoven bude právě Eleventy.</p>
+  <p>Dojde k vytvoření souboru <em>package.json</em> ve vašem adresáři. Soubor slouží jako základní konfigurace Node.js projektu. Zde se budou zapisovat například závislosti na instalovaných knihovnách, které se rozhodnete v projektu použít. Jednou z takových knihoven bude právě Eleventy.</p>
 </details>
 
 ### 2. ESM místo CommonJS
@@ -26,7 +26,7 @@ npm pkg set type="module"
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Přidá do package.json extra řádek ("type": "module"), který definuje použití modulů v ESM formátu, což je novější způsob psaní JavaScriptu (proti předchozímu CommonJS). Tenhle příkaz není ani nutný. Pokud ale chcete používat moje zápisky, spusťte ho.</p>
+  <p>Přidá do package.json extra řádek <em>"type": "module"</em>, který definuje použití modulů v ESM formátu, což je novější způsob psaní JavaScriptu (proti předchozímu CommonJS). Tenhle příkaz není ani nutný. Pokud ale chcete používat moje zápisky, spusťte ho.</p>
 </details>
 
 ### 3. Instalace 11ty
@@ -35,7 +35,7 @@ npm install @11ty/eleventy
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Do vašeho adresáře se nainstaluje Eleventy. Její instalace se propíše do package.json (do objektu dependencies). Díky tomu můžete například přesunout obsah vašeho Eleventy projektu do jiného adresáře a jedním příkazem (npm install) nainstalovat všechny knihovny zapsané v package.json znovu. S instalací Eleventy dojde také k vytvoření souboru package-lock.json a adresáře node_modules.</p>
+  <p>Do vašeho adresáře se nainstaluje Eleventy. Její instalace se propíše do package.json (do objektu dependencies). Díky tomu můžete například přesunout obsah vašeho Eleventy projektu do jiného adresáře a jedním příkazem (npm install) nainstalovat všechny knihovny zapsané v package.json znovu. S instalací Eleventy dojde také k vytvoření souboru <em>package-lock.json</em> a adresáře <em>node_modules</em>.</p>
 </details>
 
 ### 4. Vytvoření prvního obsahu
@@ -44,7 +44,7 @@ echo '# Můj první Eleventy projekt' > index.md
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Vytvoří jednoduchý Markdown soubor s nadpisem „Můj první Eleventy projekt“. Eleventy z něj při generování (viz níže) vytvoří HTML stránku. Jde v podstatě o soubor s obsahem, který chcete na stránce zobrazit. Soubor by se měl jmenovat index.md, protože představuje výchozí stránku webu. Mohl by mít i jiný formát, například index.html, ale psaní obsahu v Markdownu je obecně považováno za jednu z hlavních výhod statických generátorů.</p>
+  <p>Vytvoří jednoduchý Markdown soubor s nadpisem „Můj první Eleventy projekt“. Eleventy z něj při generování (viz níže) vytvoří HTML stránku. Jde v podstatě o soubor s obsahem, který chcete na stránce zobrazit. Soubor by se měl jmenovat <em>index.md</em>, protože představuje výchozí stránku webu. Mohl by mít i jiný formát, například <em>index.html</em>, ale psaní obsahu v Markdownu je obecně považováno za jednu z hlavních výhod statických generátorů.</p>
 </details>
 
 ### 5. Generování stránek
@@ -53,7 +53,7 @@ npx @11ty/eleventy --serve
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Eleventy vygeneruje HTML stránky a spustí lokální server. Stránky budou dostupné na http://localhost:8080. HTML výstup se navíc automaticky přegeneruje pokaždé, když uložíte ve vašem Eleventy projektu jakoukoli změnu. HTML výstup se ukládá do nového "_site" adresáře. Právě tento adresář obsahuje finální produkt celého našeho snažení - výstupní soubory, které můžete teoreticky vzít a nahrát kamkoli, kde budete svoje stránky hostovat. Btw. běh serveru ukončíte zkratkou Ctrl + C v terminálu.</p>
+  <p>Eleventy vygeneruje vaše výstupní HTML stránky a uloží je do nového adresáře <em>_site</em> ve vašem projektu. Zároveň spustí lokální server a stránky se stanou dostupné na <em>http://localhost:8080</em>. HTML výstup se navíc automaticky přegeneruje pokaždé, když uložíte ve vašem Eleventy projektu jakoukoli změnu. Právě v novém adresáři <em>_site</em> naleznete finální produkt celého našeho snažení - výstupní HTML soubory, které můžete teoreticky vzít a nahrát kamkoli, kde budete svoje stránky chtít hostovat. Btw. běh serveru ukončíte zkratkou Ctrl + C v terminálu.</p>
 </details>
 
 A to je opravdu všechno. Gratuluji! Svoji první stránku si můžete prohlédnout na adrese [http://localhost:8080](http://localhost:8080).
