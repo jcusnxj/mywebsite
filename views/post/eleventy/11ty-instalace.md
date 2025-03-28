@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: Eleventy 
   order: 2
 ---
-K vytvoření první statické webové stránky s pomocí Eleventy stačí velmi málo. Kdekoli v počítači si založte nový adresář. V něm budeme vytvářet náš Eleventy projekt. Adresář si otevřete ve Visual Studio Code a stejně tak si v něm otevřete i terminál. 
+K vytvoření první webové stránky s Eleventy stačí velmi málo. Kdekoli v počítači si založte nový adresář. V něm budeme vytvářet náš Eleventy projekt. Adresář si otevřete ve Visual Studio Code a stejně tak si v něm otevřete i terminál. 
 <!-- excerpt --> V terminálu postupně spusťte následujících 5 příkazů: 
 
 
@@ -26,7 +26,7 @@ npm pkg set type="module"
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Přidá do package.json extra řádek <em>"type": "module"</em>, který definuje použití modulů v ESM formátu, což je novější způsob psaní JavaScriptu (proti předchozímu CommonJS). Tenhle příkaz není ani nutný. Pokud ale chcete používat moje zápisky, spusťte ho.</p>
+  <p>Příkaz přidá do package.json extra řádek <em>"type": "module"</em>, který definuje použití modulů v ESM formátu, což je novější způsob psaní JavaScriptu (proti předchozímu CommonJS). Tenhle příkaz není nezbytný. Pokud ale chcete používat moje zápisky, spusťte ho.</p>
 </details>
 
 ### 3. Instalace 11ty
@@ -35,7 +35,7 @@ npm install @11ty/eleventy
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Do vašeho adresáře se nainstaluje Eleventy. Její instalace se propíše do package.json (do objektu dependencies). Díky tomu můžete například přesunout obsah vašeho Eleventy projektu do jiného adresáře a jedním příkazem (npm install) nainstalovat všechny knihovny zapsané v package.json znovu. S instalací Eleventy dojde také k vytvoření souboru <em>package-lock.json</em> a adresáře <em>node_modules</em>.</p>
+  <p>Do adresáře vašeho projektu se nainstaluje Eleventy. Její instalace se propíše do package.json (do objektu dependencies). Pokud přesunete obsah vašeho Eleventy projektu někam jinam, lze jedním příkazem (npm install) nainstalovat všechny knihovny zapsané v package.json znovu. S instalací Eleventy dojde také k vytvoření souboru <em>package-lock.json</em> a adresáře <em>node_modules</em>.</p>
 </details>
 
 ### 4. Vytvoření prvního obsahu
@@ -53,7 +53,7 @@ npx @11ty/eleventy --serve
 ```
 <details>
   <summary>Doplňující informace</summary>
-  <p>Eleventy vygeneruje vaše výstupní HTML stránky a uloží je do nového adresáře <em>_site</em> ve vašem projektu. Zároveň spustí lokální server a stránky se stanou dostupné na <em>http://localhost:8080</em>. HTML výstup se navíc automaticky přegeneruje pokaždé, když uložíte ve vašem Eleventy projektu jakoukoli změnu. Právě v novém adresáři <em>_site</em> naleznete finální produkt celého našeho snažení - výstupní HTML soubory, které můžete teoreticky vzít a nahrát kamkoli, kde budete svoje stránky chtít hostovat. Btw. běh serveru ukončíte zkratkou Ctrl + C v terminálu.</p>
+  <p>Eleventy vezme náš Markdown soubor (index.md), převede jeho obsah do HTML formátu a uloží výsledek do nového adresáře <em>_site</em>. Zároveň spustí lokální server a HTML výstup se stane dostupný na <em>http://localhost:8080</em>. Obsah adresáře <em>_site</em> se navíc automaticky přegeneruje pokaždé, když uložíte v Eleventy projektu jakoukoli změnu. A právě tenhle obsah představuje finální produkt celého našeho snažení - výstupní HTML soubory, které můžete teoreticky vzít a nahrát kamkoli, kde budete svoje stránky chtít hostovat. Btw. běh serveru ukončíte zkratkou Ctrl + C v terminálu.</p>
 </details>
 
 A to je opravdu všechno. Gratuluji! Svoji první stránku si můžete prohlédnout na adrese [http://localhost:8080](http://localhost:8080).
