@@ -11,15 +11,10 @@
 <a href="{{ crumb.url }}" class="crumb">{{ crumb.key }}</a>
 
 {% else %}
-{% if page.url == "/" + lang + "/" %}
 
-<div class="crumb-last">...</div>
-
-{% else %}
 
 <div class="crumb-last">{{ crumb.key }}</div>
 
-{% endif %}
 
 </nav>
 

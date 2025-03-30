@@ -1,12 +1,10 @@
 ---
 title: Eleventy
-layout: page
-date: 2025-03-23
 eleventyNavigation:
   key: Eleventy
-  parent: Blog
+  parent: Notes
 ---
-{% set navPages = collections.post | eleventyNavigation("Eleventy") %}
+{% set navPages = collections.note | eleventyNavigation("Eleventy") %}
 
 <ul>
 {% for item in navPages %}
