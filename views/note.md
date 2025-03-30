@@ -1,6 +1,6 @@
 ---
 title: Notes
-layout: note
+layout: base
 eleventyNavigation:
   key: Notes
 ---

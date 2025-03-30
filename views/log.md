@@ -1,6 +1,6 @@
 ---
 title: Log
-layout: note
+layout: base
 eleventyNavigation:
   key: Log
 ---
