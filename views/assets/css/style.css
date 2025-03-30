@@ -25,7 +25,7 @@ picture {
     --header-color: #0b132b;
     --text-color: #0b132b;
     --link-color: #0ca7d7;
-    --other-color: #8395a6;
+    --other-color: #acacac;
     --line-color: #c2c7cd;
     --default-size: 1.7rem;
     --size-multiplier-smaller: 0.9;
@@ -70,7 +70,9 @@ em {
 }
 
 hr {
-    color: #cdcaca;
+    background-color: var(--other-color);
+    border: none;
+    height: 1px;
 }
 
 /* LAYOUT */
@@ -124,7 +126,8 @@ footer .wrapper {
     justify-content: flex-end;
     padding-top: 1.5rem;
     padding-bottom: 1.1rem;
-    gap: 1rem;
+    gap: 0.5rem;
+    color: var(--other-color);
     font-size: calc(var(--default-size) * var(--size-multiplier-smaller));
 }
   

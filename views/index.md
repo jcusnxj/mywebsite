@@ -1,8 +1,8 @@
 ---
-title: blog
+title: 80fk
 layout: base
 eleventyNavigation:
-  key: Home
+  key: 80fk
 ---
 čus
 
