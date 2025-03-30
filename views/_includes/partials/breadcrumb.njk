@@ -12,9 +12,12 @@
 
 {% else %}
 
+{% if page.url == "/note/" or page.url == "/log/" %}
+{% else %}
 
 <div class="crumb-last">{{ crumb.key }}</div>
 
+{% endif %}
 
 </nav>
 
