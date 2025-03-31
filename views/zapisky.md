@@ -1,10 +1,10 @@
 ---
-title: Notes
+title: Zápisky
 layout: base
 eleventyNavigation:
-  key: Notes
+  key: Zápisky
 ---
-{% set navPages = collections.all | eleventyNavigation("Notes") %}
+{% set navPages = collections.all | eleventyNavigation("Zápisky") %}
 
 <ul>
 {% for item in navPages %}
