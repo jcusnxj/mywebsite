@@ -7,7 +7,7 @@ dotenv.config();
 
 const API_KEY = process.env.API_KEY;
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
-const RANGE = '11ty!A2:K';
+const RANGE = '11ty!A2:L';
 
 const sheets = google.sheets({ version: 'v4', auth: API_KEY });
 
@@ -25,7 +25,7 @@ async function fetchSheetData() {
       return;
     }
 
-    const header = ["Week", "Date", "Distance", "Duration", "Pace", "AvgHR", "Ascent", "Cadence", "Calories", "Weight", "BodyFat"];
+    const header = ["Week", "Date", "Distance", "Duration", "Pace", "AvgHR", "Ascent", "Cadence", "Calories", "Weight", "BodyFat", "id"];
 
     const data = rows.map((row) => {
       const entry = {};
