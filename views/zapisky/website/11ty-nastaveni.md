@@ -2,6 +2,7 @@
 title: 11ty - Nastavení
 date: 2025-04-01
 templateEngineOverride: md
+permalink: "/zapisky/{{ page.fileSlug }}/"
 eleventyNavigation:
   key: 11ty - Nastavení
   parent: Zápisky
@@ -149,7 +150,7 @@ export default function(eleventyConfig) {
 ### Permalink (příklad)
 ```yaml
 ---
-permalink: "/index.html"
+permalink: "/{{ page.fileSlug }}/"
 ---
 ```
 
