@@ -61,8 +61,8 @@ a {
 }
 
 h3 {
-    font-size: calc(var(--default-size) * var(--size-multiplier-larger));
-    font-weight: 550;
+    font-size: var(--default-size);
+    font-weight: 500;
 }
 
 em {
