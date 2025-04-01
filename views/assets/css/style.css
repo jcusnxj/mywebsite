@@ -199,4 +199,8 @@ details p {
     .pagination {
         margin: 2rem 0;
     }
+
+    .site-header {
+        padding: 3rem 0 2rem;
+    }
 }
