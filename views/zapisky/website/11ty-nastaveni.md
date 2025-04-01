@@ -7,6 +7,10 @@ eleventyNavigation:
   parent: Zápisky
   order: 1
 ---
+### Zdroje
+- [11ty Recipes](https://11ty.recipes)
+- [Get Started (11ty Documentation)](https://www.11ty.dev/docs/)
+- [11ty tips I wish I knew from the start](https://davidea.st/articles/11ty-tips-i-wish-i-knew-from-the-start/)
 ### package.json
 ```bash
 npm init -y
