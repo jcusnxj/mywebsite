@@ -21,10 +21,10 @@ picture {
 
 /* VARIABLES */
 :root {
-    --bg-color: #eeeeee; /* #f4f0e8 */
+    --bg-color: #fff6b6; /* #f4f0e8 */
     --header-color: #0b132b;
     --text-color: #0b132b;
-    --link-color: #0ca7d7;
+    --link-color: #21a0ef;
     --other-color: #8c8c8c;
     --line-color: #c2c7cd;
     --default-size: 1.7rem;
@@ -61,8 +61,8 @@ a {
 }
 
 h3 {
-    font-size: var(--default-size);
-    font-weight: 500;
+    font-size: (--default-size);
+    font-weight: 550;
 }
 
 em {
@@ -70,7 +70,7 @@ em {
 }
 
 hr {
-    background-color: var(--other-color);
+    background-color: var(--line-color);
     border: none;
     height: 1px;
 }
@@ -138,13 +138,6 @@ footer .wrapper {
     border-collapse: collapse;
     margin: 0 auto;
     font-size: calc(var(--default-size) * var(--size-multiplier-smaller));
-}
-
-.table-heading {
-    text-align: center;
-    padding: 0 0 1rem;
-    line-height: 1;
-
 }
 
 .total-row {
