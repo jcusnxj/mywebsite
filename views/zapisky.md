@@ -3,6 +3,7 @@ title: Zápisky
 layout: base
 eleventyNavigation:
   key: Zápisky
+  parent: 80fk
 ---
 {% set navPages = collections.all | eleventyNavigation("Zápisky") %}
 

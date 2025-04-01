@@ -3,6 +3,7 @@ title: Běžecký log
 layout: base
 eleventyNavigation:
   key: Log
+  parent: 80fk
 ---
 <div class="table-heading">
 
