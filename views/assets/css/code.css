@@ -50,7 +50,7 @@
      margin: .5em .5em;
      overflow: auto;
      border: 1px solid #dddddd;
-     background-color: white;
+     background-color: rgb(223, 222, 222);
  }
  
  /* Inline code */

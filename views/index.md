@@ -4,7 +4,10 @@ layout: base
 eleventyNavigation:
   key: 80fk
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Vítejte na mých osobních stránkách! Je to taková moje hospoda Na mýtince. Jinak já se jmenuju Fanda a jsem teda velkej fanda osobních stránek. A věřte, že pokud vy ještě žádné svoje osobní stránky nemáte, jste pro mě mrtvej Homolka / Homolková! To jen na úvod, ať v tom není bordel.
+
+Jinak stránky jsou vyrobené v 11ty, repository je uložené na GitHubu a nasazené jsou na VPS v DigitalOcean. 
+
 
 
 
