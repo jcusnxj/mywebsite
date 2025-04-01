@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import { DateTime } from "luxon";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 export default function (eleventyConfig) {
 
@@ -11,7 +12,7 @@ export default function (eleventyConfig) {
 
     // PLUGINS
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
-
+    eleventyConfig.addPlugin(syntaxHighlight);
     
     // FILTERS
     // Luxon date filter (for JavaScript Date object)
