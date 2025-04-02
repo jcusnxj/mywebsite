@@ -6,10 +6,8 @@ eleventyNavigation:
 ---
 Vítejte na mých osobních stránkách! 
 
-Já se jmenuju Fanda a jsem teda velkej fanda osobních stránek. Rád je objevuji a ještě raději je pak navštěvuji. A zcela přirozeně taky jedny vlastním.
+Jmenuju se Fanda a jsem velkej fanda osobních stránek. A zcela přirozeně jsem chtěl taky jedny vlastnit. Kdejakej hnidopich by mohl říct, že to tady obsahově trochu pokulhává. Pravda. Je to pro mě spíš taková digitální hospoda Na mýtince. Ale neodrazuju. Jen varuju dopředu. Znáte lidi. Někam vlezou a hned maj plnou hlavu očekávání.
 
-Stránky jsou vyrobené v 11ty, jejich repository je uložené na GitHub a hostované jsou na VPS u DigitalOcean. 
-
-<a href="/log">log</a> | <a href="/zapisky">zápisky</a>
+<a href="/log">log</a> 
 
 
